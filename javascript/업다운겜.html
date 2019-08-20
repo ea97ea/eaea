@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script>
+
+  // 숫자를 정한다
+   var ranNum = Math.floor(Math.random() * 100)+1;
+   console.log(ranNum)
+
+  // 게임 횟수.
+   var count = 10;
+
+  // 숫자를 입력.
+   for(var i=0; i<count; i++){
+
+     var useNumber = prompt('숫자를 입력ㄱ')
+     if(ranNum < useNumber){
+     alert('아래로~~~~~~~~~~~~~~~~~~~~~~~~')
+   }else if(ranNum > useNumber){
+    alert('위로~~~~~~~~~~~~~~~~~~~~~~~~~')
+   }else if(ranNum == useNumber){
+    alert('딩동댕동~~~~~~~~~~~~~~^^')
+    break;
+   }else{
+    alert('올바른 값 입력 ㄱㄱ. 기회를 날림 ㅃ2')
+     }
+  }
+
+  // 정답 여부
+
+
+  </script>
+
+</head>
+<body>
+
+</body>
+</html>
